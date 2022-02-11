@@ -1,6 +1,6 @@
 ---
 title: "Data Mining and Statistical Learning Homework #1"
-output: md_document
+output: pdf_document
 ---
 # 1)  Data visualization: Flights at ABIA
 ```{r}
