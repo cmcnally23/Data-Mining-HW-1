@@ -14,6 +14,7 @@
     ## x dplyr::lag()    masks stats::lag()
 
     library(ggplot2)
+    setwd('~/Dropbox/My Mac (Colin’s MacBook Pro)/Downloads/data-mining')
     ABIA <- read.csv("~/Dropbox/My Mac (Colin’s MacBook Pro)/Downloads/data-mining/ABIA.csv")
 
     #Changing NA Delay Results to O#
@@ -223,6 +224,7 @@ that the most Ten Week Hits by any Artist is Elton John. The only
 Artists with over 40 Ten Week Hits are Kenny Chesney, Madonna and Elton
 John \# 3) Wrangling the Olympics
 
+    setwd('~/Dropbox/My Mac (Colin’s MacBook Pro)/Downloads/data-mining')
     olympics_top20 <- read.csv("olympics_top20.csv")
 
     #Part A of Question 3 Data Mining#
@@ -311,6 +313,7 @@ olympics than men, but both have steadily increased in average age since
     ##     accumulate, when
 
     library(parallel)
+    setwd('~/Dropbox/My Mac (Colin’s MacBook Pro)/Downloads/data-mining')
     sclass <- read_csv("sclass.csv")
 
     ## Rows: 29466 Columns: 17
