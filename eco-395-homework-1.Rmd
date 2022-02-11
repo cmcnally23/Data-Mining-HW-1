@@ -6,6 +6,7 @@ output: md_document
 ```{r}
 library(tidyverse)
 library(ggplot2)
+setwd('~/Dropbox/My Mac (Colin’s MacBook Pro)/Downloads/data-mining')
 ABIA <- read.csv("~/Dropbox/My Mac (Colin’s MacBook Pro)/Downloads/data-mining/ABIA.csv")
 
 #Changing NA Delay Results to O#
@@ -115,6 +116,7 @@ This chart shows all Artists with over 30 Ten Week Hit. As well it shows that th
 # 3) Wrangling the Olympics
 
 ```{r}
+setwd('~/Dropbox/My Mac (Colin’s MacBook Pro)/Downloads/data-mining')
 olympics_top20 <- read.csv("olympics_top20.csv")
 
 #Part A of Question 3 Data Mining#
@@ -164,6 +166,7 @@ library(rsample)
 library(modelr)
 library(foreach)
 library(parallel)
+setwd('~/Dropbox/My Mac (Colin’s MacBook Pro)/Downloads/data-mining')
 sclass <- read_csv("sclass.csv")
 
 #Creating Table for Trim Level 350#
